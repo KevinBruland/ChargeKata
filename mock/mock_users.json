@@ -1,0 +1,170 @@
+[
+  {
+    "_id": "5cd75c53c3df15eccd706c8b",
+    "index": 0,
+    "avatar": "http://placehold.it/32x32",
+    "name": "Evelyn Kelley",
+    "email": "evelynkelley@xsports.com",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Luella Whitfield"
+      },
+      {
+        "id": 1,
+        "name": "Blackburn Shelton"
+      },
+      {
+        "id": 2,
+        "name": "Walters Shepard"
+      }
+    ],
+    "platforms": [
+      {
+        "platformName": "slack",
+        "userName": "Leonard",
+        "userId": "5cd75c53372a1c01786715e1"
+      }
+    ]
+  },
+  {
+    "_id": "5cd75c5393322a0dab76c85e",
+    "index": 1,
+    "avatar": "http://placehold.it/32x32",
+    "name": "Miles Bruce",
+    "email": "milesbruce@xsports.com",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Delgado Stevens"
+      },
+      {
+        "id": 1,
+        "name": "Burch Kaufman"
+      },
+      {
+        "id": 2,
+        "name": "Green Page"
+      }
+    ],
+    "platforms": [
+      {
+        "platformName": "slack",
+        "userName": "Lupe",
+        "userId": "5cd75c531638e440d15b6e90"
+      }
+    ]
+  },
+  {
+    "_id": "5cd75c5396b7073957a8b833",
+    "index": 2,
+    "avatar": "http://placehold.it/32x32",
+    "name": "Aurora Nash",
+    "email": "auroranash@xsports.com",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Cross Torres"
+      },
+      {
+        "id": 1,
+        "name": "Karin Head"
+      },
+      {
+        "id": 2,
+        "name": "Renee Mccormick"
+      }
+    ],
+    "platforms": [
+      {
+        "platformName": "slack",
+        "userName": "Lesley",
+        "userId": "5cd75c5356bc5f6c8ab54f25"
+      }
+    ]
+  },
+  {
+    "_id": "5cd75c53d234fcc3488c4718",
+    "index": 3,
+    "avatar": "http://placehold.it/32x32",
+    "name": "Hillary Little",
+    "email": "hillarylittle@xsports.com",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Roth Horton"
+      },
+      {
+        "id": 1,
+        "name": "Freida Stevenson"
+      },
+      {
+        "id": 2,
+        "name": "Hatfield Mcclain"
+      }
+    ],
+    "platforms": [
+      {
+        "platformName": "slack",
+        "userName": "Newton",
+        "userId": "5cd75c5384ec533e50024093"
+      }
+    ]
+  },
+  {
+    "_id": "5cd75c5390ffdf2d16ee1d03",
+    "index": 4,
+    "avatar": "http://placehold.it/32x32",
+    "name": "Bridgett Diaz",
+    "email": "bridgettdiaz@xsports.com",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Brenda Chapman"
+      },
+      {
+        "id": 1,
+        "name": "Angelita Gross"
+      },
+      {
+        "id": 2,
+        "name": "Savannah Daugherty"
+      }
+    ],
+    "platforms": [
+      {
+        "platformName": "slack",
+        "userName": "Harrington",
+        "userId": "5cd75c53851b1716aa3c6ae4"
+      }
+    ]
+  },
+  {
+    "_id": "5cd75c539f5ddee8a423f40b",
+    "index": 5,
+    "avatar": "http://placehold.it/32x32",
+    "name": "Pittman Rodgers",
+    "email": "pittmanrodgers@xsports.com",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Gibbs Miranda"
+      },
+      {
+        "id": 1,
+        "name": "Burt Hood"
+      },
+      {
+        "id": 2,
+        "name": "Arnold Gould"
+      }
+    ],
+    "platforms": [
+      {
+        "platformName": "slack",
+        "userName": "Reese",
+        "userId": "5cd75c53752e6342c96b8e39"
+      }
+    ]
+  }
+]
