@@ -2,9 +2,12 @@ const express = require('express');
 const router = express.Router();
 const axios = require('axios');
 const mockUserData = require('../mock/mock_users');
+const slackController = require('../controllers/slack');
 
 const slackUserListEndpoint = 'https://slack.com/api/users.list';
 const slackToken = process.env.SLACK_TOKEN;
+
+router.get('/testRoute', slackController.getSlackUsers);
 
 // Endpoint to lookup a slack user ID based on username
 // Test example: api/getSlackUserId?username=kevinmbruland 
