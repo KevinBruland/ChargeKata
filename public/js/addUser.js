@@ -4,29 +4,27 @@ function notifyResponse(status) {
     document.getElementById('notificationContainer').innerHTML = status;
 }
 
-addUserForm.addEventListener("submit", function (e) {
-    e.preventDefault();
-
+function createSubmitData(form) {
     const submitData = {}
-    const formData = new FormData(e.target);
+    const formData = new FormData(form);
 
     // Serialize form data
     formData.forEach(function (val, key) {
         submitData[key] = val;
     })
 
-    fetch("/api/addNewUser", {
-        method: 'post',
-        credentials: 'same-origin',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(submitData)
-    })
-    .then(function(res){
-        return res.json();
-    })
-    .then(function(data){
-        notifyResponse(data.userNotification);
-    });
+    return submitData;
+}
+
+addUserForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const submitData = createSubmitData(e.target);
+
+    axios.post('/api/addNewUser', submitData)
+        .then(function (res) {
+            console.log('POST /api/addNewUser response: ', res);
+
+            notifyResponse(res.data.userNotification);
+        });
 });
