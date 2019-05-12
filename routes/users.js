@@ -6,4 +6,8 @@ router.get('/', function (req, res, next) {
     res.render('users', { users: mockUserData });
 });
 
+router.get('/new-user', function (req, res, next) {
+    res.render('addUser');
+});
+
 module.exports = router;
