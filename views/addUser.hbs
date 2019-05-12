@@ -1,10 +1,18 @@
-
-
-<form id="addUserForm"> 
+<form id="addUserForm">
     <label>
-    Username (required):
-        <input type="text" id="username" name="username">
+        Username (required):
+        <input type="text" id="username" name="username" required>
     </label>
+    <div>
+        <label for="chatPlatform">Chat platform: </label>
+        <select name="chatPlatform" id="chatPlatform">
+            <option value="slack">Slack</option>
+        </select>
+        <label>
+            Platform username:
+            <input type="text" id="platformUsername" name="platformUsername" required>
+        </label>
+    </div>
     <button>Create new user</button>
 </form>
 <p id="notificationContainer"></p>
