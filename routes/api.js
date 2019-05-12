@@ -3,7 +3,7 @@ const router = express.Router();
 const axios = require('axios');
 
 const slackUserListEndpoint = 'https://slack.com/api/users.list';
-const slackToken = 'xoxp-632588809957-621199038658-626296138849-70847a8e64e10c67933bba161e7c3103';
+const slackToken = process.env.SLACK_TOKEN;
 
 // Endpoint to lookup a slack user ID based on username
 // Test example: api/getSlackUserId?username=kevinmbruland 
