@@ -21,10 +21,8 @@ addUserForm.addEventListener("submit", function (e) {
 
     const submitData = createSubmitData(e.target);
 
-    axios.post('/api/addNewUser', submitData)
+    axios.post('newUser', submitData)
         .then(function (res) {
-            console.log('POST /api/addNewUser response: ', res);
-
             notifyResponse(res.data.userNotification);
         });
 });
