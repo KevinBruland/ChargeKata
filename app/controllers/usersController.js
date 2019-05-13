@@ -30,11 +30,6 @@ function getSlackUserId(username) {
     return getSlackUsersList().then(res => res.find(user => user.name === username));
 }
 
-exports.test = async (req, res) => {
-    res.json(Boolean(checkIfPlatformUserExists('Dillard', 'slacks')));
-    res.end();
-}
-
 exports.usersHome = (req, res) => {
     const platformUsers = getUserList();
     res.render("users", {users: platformUsers});
